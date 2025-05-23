@@ -1,0 +1,14 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,com/awesome/testing/performance/javabenchmark/BenchMark.iterativeSum
+inline,com/awesome/testing/performance/javabenchmark/BenchMark.parallelRangedSum
+inline,com/awesome/testing/performance/javabenchmark/BenchMark.parallelSum
+inline,com/awesome/testing/performance/javabenchmark/BenchMark.rangedSum
+inline,com/awesome/testing/performance/javabenchmark/BenchMark.sequentialSum
+inline,com/awesome/testing/performance/javabenchmark/ExplainingState$PredefinedState.doForkSetup
+inline,com/awesome/testing/performance/javabenchmark/ExplainingState$PredefinedState.doIterationSetup
+inline,com/awesome/testing/performance/javabenchmark/ExplainingState$PredefinedState.doIterationTeardown
+inline,com/awesome/testing/performance/javabenchmark/ExplainingState.testMethod
