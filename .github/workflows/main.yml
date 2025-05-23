@@ -47,4 +47,5 @@ jobs:
 
     - name: Run Maven tests
       if: env.VALIDATION_FAILED != 'true'
-      run: mvn test -Denvironment=dev11 -DsuiteXmlFile=suite/${{ env.SUITE_FILE }}.xml -DtestFailureIgnore=false
+      run: mvn test 
+      #-Denvironment=dev11 -DsuiteXmlFile=suite/${{ env.SUITE_FILE }}.xml -DtestFailureIgnore=false
